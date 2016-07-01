@@ -17,10 +17,13 @@ To download these files, you can simply click on the 'Download ZIP' button to th
 2. The OOP version of the same code is represented across the three files: list.rb, task.rb, and oop_todo.rb. As you'll note, list.rb and task.rb represent the two custom classes that the program relies upon, and oop_todo.rb is the main program that relies on those two classes. The only way to understand these three files is by looking at them together, as each file references the other two files. Examine all three files carefully and attempt to understand how the program is working. Run the oop_todo.rb program in the terminal, and the output should be identical to the output of procedural_todo.rb. The idea here is that we have two different styles of programming the same thing.
 
 3. Answer the following questions regarding oop_todo.rb:
-  a. Explain line 5.
-  b. Explain line 8.
-  c. Explain line 14.
-  d. Explain line 31. 
+  a. Explain line 5. - answer: Creates a new List Object and assigns it to a varaible, called list.
+
+  b. Explain line 8. - answer: Creates a new Task Object using the string parameter "Feed the cat" and adds that Task Object to the List object by using the List#add_task method.
+
+  c. Explain line 14. - answer: Prints the name of the second task associated with the list object.
+
+  d. Explain line 31.  - answer: by calling the #complete! method, it changes the list's first task's @complete attribute/instance variable to true
 
 4. Answer the following questions:
   a. In your opinion, what advantages does oop_todo have over procedural_todo?
